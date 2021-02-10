@@ -1,0 +1,195 @@
+:root{
+	--lila-oscuro: #330C2F;
+	--lila-claro: #7B287D;
+	--teal-oscuro: #068D9D;
+	--azulina: #6D9DC5;
+	--teal-claro: #80DED9;
+}
+
+* {
+	margin: 0;
+	padding: 0;
+	font-family:"Montserrat", Verdana, sans-serif;
+}
+
+
+body {
+	font-size:1rem;
+	width: 100%;
+	margin:auto;
+	margin-top: 1rem;
+	}
+	
+::selection {
+	background:var(--teal-claro);
+	color:white;
+}
+
+header {
+	padding-left:1rem;
+	padding-right:1rem;
+}
+
+
+/*.logo {
+	float:left;
+}
+	
+nav {
+	text-align:right;
+}
+
+nav ul li {
+	display:inline-block;
+	margin-top:0.3rem;
+}
+
+
+nav ul li a {
+	text-decoration:none;
+	color:black;
+	padding:1rem;
+	font-size:0.9rem;
+}
+
+nav ul li a:hover {
+	text-decoration:none;
+	color:var(--lila-claro);
+	padding:1rem;
+	font-size:1rem;
+}*/
+
+.headline {
+	height:10rem;
+	max-width: 23%;
+	padding-top:5rem;
+	text-align:left;
+	margin:auto;
+	position:relative;
+}
+
+h2 {
+	color:black;
+	display:inline-block;
+	font-variant:bold;
+	text-transform:uppercase;
+	font-size: 2rem;
+}
+
+
+.knowMore {
+	padding-bottom:3rem;
+	padding-top:2rem;
+	text-align:left;
+	position: absolute;
+	font-size:0.8rem;
+	width:99%;
+}
+
+
+
+button {
+	display:block;
+	background:var(--teal-oscuro);
+	padding: 0.7rem;
+	border-radius:40px;
+	margin:auto;
+	border:none;
+}
+
+button a {
+	text-decoration:none;
+	color:white;
+	text-transform:uppercase;
+	font-size:0.6rem;
+	font-weight:bold;
+}
+
+.contact:hover {
+	background:var(--lila-claro);
+}
+
+
+
+.newsletter:hover {
+	background:var(--lila-claro);
+}
+
+
+.contact {
+	margin-top:7rem;
+}
+
+.newsletter {
+	margin-top:1rem;
+}
+
+footer {
+	margin-top:5rem;
+	font-size:0.7rem;
+	color:white;
+	background:black;
+	height:3rem;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	}
+	
+
+
+@media screen and (max-width: 1000px) {
+.headline {
+	height:8.75rem;
+	}
+
+h2 {
+	font-size: 1.5rem;
+	}
+	
+.knowMore {
+	font-size:0.7rem;
+}
+
+button {
+	padding: 0.6rem;
+}
+
+button a {
+	font-size:0.5rem;
+	}
+
+footer {
+	font-size:0.6rem;
+	}
+
+}
+
+
+@media screen and (max-width: 500px) {
+.headline {
+	height:7.75rem;
+	}
+
+h2 {
+	font-size: 1rem;
+	}
+	
+.knowMore {
+	font-size:0.5rem;
+}
+
+button {
+	padding: 0.5rem;
+}
+
+button a {
+	font-size:0.4rem;
+	}
+
+footer {
+	font-size:0.5rem;
+	}
+	
+}
+
+/* Contenido: class--> . */
