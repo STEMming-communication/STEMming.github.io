@@ -69,7 +69,7 @@ nav ul li a:hover {
 .headline {
 	height:10rem;
 	max-width: 30%;
-	padding-top:5rem;
+	padding-top:10vh;
 	text-align:left;
 	margin:auto;
 	position:relative;
@@ -85,8 +85,8 @@ h2 {
 
 
 .knowMore {
-	padding-bottom:3rem;
-	padding-top:2rem;
+	padding-bottom:6vh;
+	padding-top:4vh;
 	text-align:left;
 	position: absolute;
 	font-size:2.5vh;
@@ -124,11 +124,11 @@ button a {
 
 
 .contact {
-	margin-top:7rem;
+	margin-top:18vh;
 }
 
 .newsletter {
-	margin-top:1rem;
+	margin-top:3vh;
 }
 
 footer {
