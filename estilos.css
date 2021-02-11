@@ -177,12 +177,12 @@ footer {
 @media screen and (max-width: 500px) {
 
 .headline {
-	max-width: 40%;
-	margin-left:25vh;
+	max-width: 70%;
+	margin-left:10%;
 }
 
 h2 {
-	font-size: 5vh;
+	font-size: 4.5vh;
 	}
 	
 .knowMore {
