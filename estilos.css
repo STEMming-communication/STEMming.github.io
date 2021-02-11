@@ -176,12 +176,18 @@ footer {
 
 @media screen and (max-width: 500px) {
 
+.headline {
+	max-width: 40%;
+	margin-left:25vh;
+}
+
 h2 {
 	font-size: 5vh;
 	}
 	
 .knowMore {
 	font-size:1.9vh;
+	margin-left:2vh;
 }
 
 button {
